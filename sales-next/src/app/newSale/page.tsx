@@ -54,7 +54,6 @@ const CreateNewSale = () => {
       position: `top-center`,
     });
     setTimeout(() => {
-      // Executa o redirecionamento apenas no lado do cliente
       if (typeof window !== "undefined") {
         router.push("/");
       }
