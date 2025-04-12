@@ -106,7 +106,7 @@ const SalesList = () => {
           {vendas.map((sale_list, index) => (
             <CarouselItem
               key={index}
-              className="pb-4 justify-between block shadow-none border-black items-center">
+              className="mb-2 justify-between block shadow-none border-black items-center">
               {sale_list.map((sale) => (
                 <div key={sale.id} className="flex gap-4 text-left items-center justify-between p-4 w-full mt-2 rounded-2xl bg-white/5 hover:bg-white/10 backdrop-blur-2xl border-black border-1">
                   <div>
